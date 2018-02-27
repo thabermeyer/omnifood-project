@@ -1038,6 +1038,48 @@ html {
 
     }
 
+.large-hero__main-nav {
+
+        float: right;
+        list-style: none;
+        margin-top: 55px;
+
+    }
+
+.large-hero__main-nav li {
+
+            display: inline-block;
+            margin-left: 40px;
+
+        }
+
+.large-hero__main-nav li a:link, .large-hero__main-nav li a:visited {
+
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 90%;
+                padding: 8px 0;
+                border-bottom: 2px solid transparent;
+                transition: border-bottom 0.2s;
+
+            }
+
+.large-hero__main-nav li a:hover, .large-hero__main-nav li a:active {
+
+                border-bottom: 2px solid #e67e22;
+
+            }
+
+.large-hero__logo {
+
+        height: 100px;
+        width: auto;
+        float: left;
+        margin-top: 20px;
+
+    }
+
 .large-hero__text-box {
 
         position: absolute;
@@ -1062,48 +1104,48 @@ html {
             
         }
 
-.large-hero__btn:link, .large-hero__btn:visited {
+.btn:link, .btn:visited {
 
-            display: inline-block;
-            padding: 10px 30px;
-            font-weight: 300;
-            text-decoration: none;
-            border-radius: 200px;
-            transition: background-color 0.2s, border 0.2s, color 0.2s;
+        display: inline-block;
+        padding: 10px 30px;
+        font-weight: 300;
+        text-decoration: none;
+        border-radius: 200px;
+        transition: background-color 0.2s, border 0.2s, color 0.2s;
 
-        }
+    }
 
-.large-hero__btn--orange:link, .large-hero__btn--orange:visited {
+.btn--orange:link, .btn--orange:visited {
 
-            background-color: #e67e22;
-            border: 1px solid #e67e22;
-            color: #fff;
-            margin-right: 15px;
+        background-color: #e67e22;
+        border: 1px solid #e67e22;
+        color: #fff;
+        margin-right: 15px;
 
-        }
+    }
 
-.large-hero__btn--orange-outline:link, .large-hero__btn--orange-outline:visited {
+.btn--orange-outline:link, .btn--orange-outline:visited {
 
-            border: 1px solid #e67e22;
-            color: #e67e22;
+        border: 1px solid #e67e22;
+        color: #e67e22;
 
-        }
+    }
 
-.large-hero__btn:hover, .large-hero__btn:active {
+.btn:hover, .btn:active {
 
-            background-color: #cf6d17;
+        background-color: #cf6d17;
 
-        }
+    }
 
-.large-hero__btn--orange:hover, .large-hero__btn--orange:active {
+.btn--orange:hover, .btn--orange:active {
 
-            border: 1px solid #cf6d17;
+        border: 1px solid #cf6d17;
 
-        }
+    }
 
-.large-hero__btn--orange-outline:hover, .large-hero__btn--orange-outline:active {
+.btn--orange-outline:hover, .btn--orange-outline:active {
 
-            border: 1px solid #cf6d17;
-            color: #fff;
+        border: 1px solid #cf6d17;
+        color: #fff;
 
-        }
+    }
