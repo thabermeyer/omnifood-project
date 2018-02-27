@@ -2,5 +2,6 @@
 @import "base/_variables";
 @import "base/_global";
 @import "base/_grid";
+@import "base/_ionicons";
 @import "modules/_large-hero";
 @import "modules/_btn";

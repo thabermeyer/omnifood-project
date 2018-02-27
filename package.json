@@ -2,6 +2,7 @@
   "name": "omnifood-project",
   "version": "1.0.0",
   "dependencies": {
+    "ionicons": "^3.0.0",
     "normalize.css": "^8.0.0"
   },
   "devDependencies": {
