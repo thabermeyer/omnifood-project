@@ -360,6 +360,22 @@ html {
 
 }
 
+.clearfix {
+
+    zoom: 1;
+
+}
+
+.clearfix:after {
+
+        content: '.';
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+
+    }
+
 .row {
 
     max-width: 1140px;
@@ -391,6 +407,12 @@ section {
 #meals {
 
     padding: 0;
+
+}
+
+#how-it-works {
+
+    background-color: #f4f4f4;
 
 }
 
@@ -3048,6 +3070,63 @@ section {
                 opacity: 1;
 
             }
+
+.how-it-works__box:first-child {
+
+            text-align: right;
+            padding-right: 3%;
+            margin-top: 30px;
+
+        }
+
+.how-it-works__box:last-child {
+
+            padding-left: 3%;
+            margin-top: 70px;
+
+        }
+
+.how-it-works__app-screen {
+
+        width: 40%;
+
+    }
+
+.how-it-works__step {
+
+        margin-bottom: 50px;
+
+    }
+
+.how-it-works__step div {
+
+            color: #e67e22;
+            border: 2px solid #e67e22;
+            display: inline-block;
+            border-radius: 50%;
+            height: 55px;
+            width: 55px;
+            text-align: center;
+            padding: 5px;
+            float: left;
+            font-size: 150%;
+            margin-right: 25px;
+
+        }
+
+.how-it-works__step:last-of-type {
+
+            margin-bottom: 80px;
+
+        }
+
+.btn__app img {
+
+        height: 50px;
+        width: auto;
+        margin-right: 10px;
+
+    }
 
 .btn:link, .btn:visited {
 

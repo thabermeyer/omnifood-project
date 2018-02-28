@@ -17,6 +17,22 @@ html {
 
 }
 
+.clearfix {
+
+    zoom: 1;
+
+    &:after {
+
+        content: '.';
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+
+    }
+
+}
+
 .row {
 
     max-width: 1140px;
@@ -48,5 +64,11 @@ section {
 #meals {
 
     padding: 0;
+
+}
+
+#how-it-works {
+
+    background-color: $lightGray;
 
 }
