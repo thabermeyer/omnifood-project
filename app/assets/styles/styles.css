@@ -4,6 +4,7 @@
 @import "base/_grid";
 @import "base/_ionicons";
 @import "modules/_large-hero";
+@import "modules/_meals";
 @import "modules/_btn";
 @import "modules/_heading";
 @import "modules/_paragraph";

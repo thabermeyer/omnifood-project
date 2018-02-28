@@ -2997,6 +2997,35 @@ section {
 
     }
 
+.meals__showcase {
+
+        list-style: none;
+        width: 100%;
+
+    }
+
+.meals__showcase li {
+
+            display: block;
+            float: left;
+            width: 25%;
+
+        }
+
+.meals__photo {
+
+        width: 100%;
+        margin: 0;
+
+    }
+
+.meals__photo img {
+
+            width: 100%;
+            height: auto;
+
+        }
+
 .btn:link, .btn:visited {
 
         display: inline-block;
