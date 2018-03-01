@@ -3120,24 +3120,34 @@ section {
 
         }
 
-.cities__photo {
-
-        width: 100%;
-        margin-bottom: 20px;
-
-    }
-
 .cities__photo img {
 
             width: 100%;
             height: auto;
+            margin-bottom: 15px;
 
         }
 
-.cities__info div {
+.cities__info {
 
-            display: inline-block;
-            float: left;
+        margin-bottom: 5px;
+
+    }
+
+.cities__info a:link, .cities__info a:visited {
+
+            text-decoration: none;
+            color: #e67e22;
+            padding-bottom: 1px;
+            border-bottom: 1px solid #e67e22;
+            transition: border-bottom 0.2s, color 0.2s;
+
+        }
+
+.cities__info a:hover, .cities__info a:active {
+
+            color: #555;
+            border-bottom: 1px solid transparent;
 
         }
 
@@ -3272,10 +3282,14 @@ section {
 
 .icon--small {
 
-        font-size: 140%;
-        display: block;
+        display: inline-block;
+        width: 30px;
         color: #e67e22;
-        margin-bottom: 10px;
         text-align: center;
+        font-size: 120%;
+        line-height: 120%;
+        vertical-align: middle;
+        margin-top: -4px;
+        margin-right: 10px;
 
     }
