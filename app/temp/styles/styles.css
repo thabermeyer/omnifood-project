@@ -3205,27 +3205,71 @@ section {
 
             }
 
-.sign-up {
+.sign-up__box {
 
-    margin-bottom: 5px;
+        background-color: #fff;
+        border-radius: 5px;
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 0 2px 2px #efefef;
 
-}
+    }
+
+.sign-up__box div {
+
+            padding: 15px;
+            border-bottom: 1px solid #e8e8e8;
+
+        }
 
 .sign-up__heading {
 
-        background-color: #ececec;
+        background-color: #fcfcfc;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
 
     }
 
-.sign-up__details {
+.sign-up__price {
 
-        background-color: #fff;
+        font-size: 300%;
+        margin-bottom: 10px;
+        font-weight: 300;
+        color: #e67e22;
+        text-align: center;
 
     }
+
+.sign-up__price--details {
+
+            font-size: 80%;
+            text-align: center;
+
+        }
+
+.sign-up__price span {
+
+            font-size: 35%;
+            font-weight: 300;
+
+        }
+
+.sign-up__details ul {
+
+            list-style: none;
+
+        }
+
+.sign-up__details ul li {
+
+                padding: 5px 0;
+            
+            }
 
 .sign-up__btn {
         
-        background-color: #ececec;
+        text-align: center;
+        border: 0;
         
     }
 
