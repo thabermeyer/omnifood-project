@@ -35,13 +35,13 @@
 
     }
 
-    &:hover, &:active {
+    &:hover, &:active, & input[type=submit]   {
 
         background-color: $darkOrange;
 
     }
 
-    &--orange:hover, &--orange:active, & input[type=submit]  {
+    &--orange:hover, &--orange:active, & input[type=submit]:hover, & input[type=submit]:active  {
 
         border: 1px solid $darkOrange;
 
