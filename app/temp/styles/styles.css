@@ -3166,8 +3166,38 @@ section {
         padding: 2%;
         font-style: italic;
         line-height: 145%;
+        position: relative;
+        margin-top: 40px;
 
     }
+
+.testimonials__block:before {
+
+            content: "\201C";
+            font-size: 500%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -30px;
+
+        }
+
+.testimonials__block cite {
+
+            font-size: 90%;
+            margin-top: 25px;
+            display: block;
+
+        }
+
+.testimonials__block cite img {
+
+                height: 45px;
+                border-radius: 50%;
+                margin-right: 10px;
+                vertical-align: middle;
+
+            }
 
 .btn__app img {
 
