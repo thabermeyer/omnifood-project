@@ -431,6 +431,14 @@ section {
 
 }
 
+#footer {
+
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+
+}
+
 /*  SECTIONS  ============================================================================= */
 
 .section {
@@ -3334,6 +3342,85 @@ section {
     
         }
 
+.footer__nav {
+
+        list-style: none;
+        float: left;
+
+    }
+
+.footer__nav li {
+
+            display: inline-block;
+            margin-right: 20px;
+
+        }
+
+.footer__nav li:last-child {
+
+                margin-right: 0;
+
+            }
+
+.footer__nav a:link, .footer__nav a:visited {
+
+            text-decoration: none;
+            border: 0;
+            color: #888;
+            transition: color 0.2s;
+
+        }
+
+.footer__nav a:hover, .footer__nav a:active {
+
+            color: #ddd;
+
+        }
+
+.footer__social-links {
+
+        list-style: none;
+        float: right;
+
+    }
+
+.footer__social-links li {
+
+            display: inline-block;
+            margin-right: 20px;
+
+        }
+
+.footer__social-links li:last-child {
+
+                margin-right: 0;
+
+            }
+
+.footer__social-links a:link, .footer__social-links a:visited {
+
+            text-decoration: none;
+            border: 0;
+            color: #888;
+            transition: color 0.2s;
+            font-size: 160%;
+
+        }
+
+.footer__social-links a:hover, .footer__social-links a:active {
+
+            color: #ddd;
+
+        }
+
+.footer__paragraph {
+
+        color: #888;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
 .btn__app img {
 
         height: 50px;
@@ -3476,3 +3563,36 @@ section {
         margin-right: 10px;
 
     }
+
+.ion-logo-facebook:hover {
+
+    color: #3b5998;
+
+}
+
+.ion-logo-twitter:hover {
+
+    color: #00aced;
+
+}
+
+.ion-logo-googleplus:hover {
+
+    color: #dd4b39;
+
+}
+
+.ion-logo-instagram:hover {
+
+    color: #517fa4;
+
+}
+
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-googleplus,
+.ion-logo-instagram {
+
+    transition: color 0.2s;
+
+}

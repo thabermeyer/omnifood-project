@@ -26,3 +26,35 @@
 
 }
 
+.ion-logo-facebook:hover {
+
+    color: #3b5998;
+
+}
+
+.ion-logo-twitter:hover {
+
+    color: #00aced;
+
+}
+
+.ion-logo-googleplus:hover {
+
+    color: #dd4b39;
+
+}
+
+.ion-logo-instagram:hover {
+
+    color: #517fa4;
+
+}
+
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-googleplus,
+.ion-logo-instagram {
+
+    transition: color 0.2s;
+
+}
