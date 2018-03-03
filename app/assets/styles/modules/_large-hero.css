@@ -4,39 +4,54 @@
 
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/hero.jpg);
         background-size: cover;
-        background-position: center;
         background-attachment: fixed;
-        height: 100vh;
+        height: auto;
+        padding-bottom: 80px;
+
+        @mixin atMedium {
+
+            height: 100vh;
+            padding-bottom: 0;
+            background-position: center;
+
+        }
 
     }
 
     &__main-nav {
 
-        float: right;
-        list-style: none;
-        margin-top: 55px;
+        display: none;
 
-        & li {
+        @mixin atMedium {
 
-            display: inline-block;
-            margin-left: 40px;
-
-            & a:link, & a:visited {
-
-                color: #fff;
-                text-decoration: none;
-                text-transform: uppercase;
-                font-size: 90%;
-                padding: 8px 0;
-                border-bottom: 2px solid transparent;
-                transition: border-bottom 0.2s;
-
-            }
-
-            & a:hover, & a:active {
-
-                border-bottom: 2px solid $mainOrange;
-
+            float: right;
+            list-style: none;
+            margin-top: 55px;
+            display: initial;
+    
+            & li {
+    
+                display: inline-block;
+                margin-left: 40px;
+    
+                & a:link, & a:visited {
+    
+                    color: #fff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 90%;
+                    padding: 8px 0;
+                    border-bottom: 2px solid transparent;
+                    transition: border-bottom 0.2s;
+    
+                }
+    
+                & a:hover, & a:active {
+    
+                    border-bottom: 2px solid $mainOrange;
+    
+                }
+    
             }
 
         }
@@ -47,18 +62,43 @@
 
         height: 100px;
         width: auto;
-        float: left;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 20px;
+
+        @mixin atMedium {
+
+            float: left;
+            width: auto;
+
+        }
 
     }
 
     &__text-box {
 
-        position: absolute;
-        width: 1140px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        margin-top: 20px;
+        padding: 0 2%;
+        text-align: center;
+
+        @mixin atMedium {
+
+            text-align: left;
+
+        }
+
+        @mixin atLarge {
+
+            position: absolute;
+            width: 1140px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-top: 0;
+            padding: 0;
+
+        }
 
     }
 

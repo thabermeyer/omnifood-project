@@ -8,18 +8,24 @@
 
     }
 
-    &:link, &:visited, & input[type=submit] {
+    &:link, &:visited {
 
         display: inline-block;
-        padding: 10px 30px;
+        padding: 6px 18px;
         font-weight: 300;
         text-decoration: none;
         border-radius: 200px;
         transition: background-color 0.2s, border 0.2s, color 0.2s;
 
+        @mixin atMedium {
+
+            padding: 10px 30px;
+
+        }
+
     }
 
-    &--orange:link, &--orange:visited, & input[type=submit] {
+    &--orange:link, &--orange:visited {
 
         background-color: $mainOrange;
         border: 1px solid $mainOrange;
@@ -35,19 +41,19 @@
 
     }
 
-    &:hover, &:active, & input[type=submit]   {
+    &:hover, &:active {
 
         background-color: $darkOrange;
 
     }
 
-    &--orange:hover, &--orange:active, & input[type=submit]:hover, & input[type=submit]:active  {
+    &--orange:hover, &--orange:active {
 
         border: 1px solid $darkOrange;
 
     }
 
-    &--orange-outline:hover, &--orange-outline:active, & input[type=submit]  {
+    &--orange-outline:hover, &--orange-outline:active {
 
         border: 1px solid $darkOrange;
         color: #fff;
