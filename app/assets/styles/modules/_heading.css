@@ -9,19 +9,43 @@
         margin-top: 0;
         margin-bottom: 20px;
         color: #fff;
-        font-size: 240%;
+        font-size: 160%;
         word-spacing: 4px;
         letter-spacing: 1px;
+
+        @mixin atMedium {
+
+            font-size: 200%;
+
+        }
+
+        @mixin atLarge {
+
+            font-size: 240%;
+
+        }
 
     }
 
     &__h2 {
 
-        font-size: 180%;
+        font-size: 140%;
         word-spacing: 2px;
         margin-bottom: 30px;
         text-align: center;
         letter-spacing: 1px;
+
+        @mixin atMedium {
+
+            font-size: 160%;
+
+        }
+
+        @mixin atLarge {
+
+            font-size: 180%;
+
+        }
 
         &:after {
 
@@ -45,6 +69,5 @@
         text-align: center;
 
     }
-
 
 }

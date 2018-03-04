@@ -1,9 +1,16 @@
 .paragraph {
 
     line-height: 145%;
-    width: 70%;
-    margin-left: 15%;
+    width: 82%;
+    margin-left: 9%;
 
+    @mixin atMedium {
+
+        width: 70%;
+        margin-left: 15%;
+
+    }
+    
     &--bottom-m {
 
         margin-bottom: 30px;

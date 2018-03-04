@@ -25,9 +25,11 @@
 /*  GRID COLUMN SETUP   ==================================================================== */
 
 .col {
+
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
+	
 }
 
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
@@ -116,9 +118,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 531 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 531px) {
 	.span-4-of-4 {
 		width: 100%; 
 	}

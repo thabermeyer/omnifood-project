@@ -341,125 +341,6 @@ template {
   display: none;
 }
 
-* {
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
-html, body {
-
-    background-color: #ffffff;
-    color: #555555;
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
-
-}
-
-@media (min-width: 800px) {
-
-html, body {
-
-        font-size: 20px
-
-}
-
-    }
-
-.clearfix {
-
-    zoom: 1;
-
-}
-
-.clearfix:after {
-
-        content: '.';
-        clear: both;
-        display: block;
-        height: 0;
-        visibility: hidden;
-
-    }
-
-.row {
-
-    padding: 0 2%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-@media (min-width: 1200px) {
-
-.row {
-
-        max-width: 1140px
-
-}
-
-    }
-
-.box {
-
-    padding: 1%;
-
-}
-
-.box p {
-
-        font-size: 90%;
-        line-height: 145%;
-        
-
-    }
-
-section {
-
-    padding: 80px 0;
-
-}
-
-#meals {
-
-    padding: 0;
-
-}
-
-#how-it-works {
-
-    background-color: #f4f4f4;
-
-}
-
-#testimonials {
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/images/back-customers.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
-
-}
-
-#sign-up {
-
-    background-color: #f4f4f4;
-
-}
-
-#footer {
-
-    background-color: #333;
-    padding: 50px;
-    font-size: 80%;
-
-}
-
 /*  SECTIONS  ============================================================================= */
 
 .section {
@@ -487,9 +368,11 @@ section {
 /*  GRID COLUMN SETUP   ==================================================================== */
 
 .col {
+
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
+	
 }
 
 .col:first-child { margin-left: 0; }
@@ -572,9 +455,9 @@ section {
 	width: 23.8%; 
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 531 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 531px) {
 	.span-4-of-4 {
 		width: 100%; 
 	}
@@ -1119,6 +1002,125 @@ section {
 	.span-1-of-12 {
 		width: 100%; 
 	}
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+
+    background-color: #ffffff;
+    color: #555555;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+
+}
+
+@media (min-width: 800px) {
+
+html, body {
+
+        font-size: 20px
+
+}
+
+    }
+
+.clearfix {
+
+    zoom: 1;
+
+}
+
+.clearfix:after {
+
+        content: '.';
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+
+    }
+
+.row {
+
+    padding: 0 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media (min-width: 1200px) {
+
+.row {
+
+        max-width: 1140px
+
+}
+
+    }
+
+.box {
+
+    padding: 1%;
+
+}
+
+.box p {
+
+        font-size: 90%;
+        line-height: 145%;
+        
+
+    }
+
+section {
+
+    padding: 80px 0;
+
+}
+
+#meals {
+
+    padding: 0;
+
+}
+
+#how-it-works {
+
+    background-color: #f4f4f4;
+
+}
+
+#testimonials {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/images/back-customers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+#sign-up {
+
+    background-color: #f4f4f4;
+
+}
+
+#footer {
+
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+
 }
 
 @charset "UTF-8";
@@ -3582,7 +3584,6 @@ section {
         font-weight: 300;
         text-transform: uppercase;
 
-
 }
 
 .heading__h1 {
@@ -3590,19 +3591,59 @@ section {
         margin-top: 0;
         margin-bottom: 20px;
         color: #fff;
-        font-size: 240%;
+        font-size: 160%;
         word-spacing: 4px;
         letter-spacing: 1px;
 
     }
 
+@media (min-width: 800px) {
+
+.heading__h1 {
+
+            font-size: 200%
+
+    }
+
+    }
+
+@media (min-width: 1200px) {
+
+.heading__h1 {
+
+            font-size: 240%
+
+    }
+
+    }
+
 .heading__h2 {
 
-        font-size: 180%;
+        font-size: 140%;
         word-spacing: 2px;
         margin-bottom: 30px;
         text-align: center;
         letter-spacing: 1px;
+
+    }
+
+@media (min-width: 800px) {
+
+.heading__h2 {
+
+            font-size: 160%
+
+    }
+
+    }
+
+@media (min-width: 1200px) {
+
+.heading__h2 {
+
+            font-size: 180%
+
+    }
 
     }
 
@@ -3630,10 +3671,21 @@ section {
 .paragraph {
 
     line-height: 145%;
-    width: 70%;
-    margin-left: 15%;
+    width: 82%;
+    margin-left: 9%;
 
 }
+
+@media (min-width: 800px) {
+
+.paragraph {
+
+        width: 70%;
+        margin-left: 15%
+
+}
+
+    }
 
 .paragraph--bottom-m {
 
