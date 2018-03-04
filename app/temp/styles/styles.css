@@ -3153,9 +3153,19 @@ section {
 
             display: block;
             float: left;
-            width: 25%;
+            width: 50%;
 
         }
+
+@media (min-width: 800px) {
+
+.meals__showcase li {
+
+                width: 25%
+
+        }
+
+    }
 
 .meals__photo {
 
