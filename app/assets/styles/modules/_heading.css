@@ -9,21 +9,9 @@
         margin-top: 0;
         margin-bottom: 20px;
         color: #fff;
-        font-size: 110%;
+        font-size: 240%;
         word-spacing: 4px;
         letter-spacing: 1px;
-
-        @mixin atSmall {
-
-            font-size: 140%;
-
-        }
-
-        @mixin atMedium {
-
-            font-size: 240%;
-
-        }
 
     }
 

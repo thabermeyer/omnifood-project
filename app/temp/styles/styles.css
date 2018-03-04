@@ -354,7 +354,7 @@ html, body {
     background-color: #ffffff;
     color: #555555;
     font-family: 'Lato', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
@@ -3012,6 +3012,7 @@ section {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/hero.jpg);
         background-size: cover;
         background-attachment: fixed;
+        background-position: center;
         height: auto;
         padding-bottom: 80px;
 
@@ -3021,9 +3022,18 @@ section {
 
 .large-hero__header {
 
+            height: auto
+
+    }
+
+    }
+
+@media (min-width: 1200px) {
+
+.large-hero__header {
+
             height: 100vh;
-            padding-bottom: 0;
-            background-position: center
+            padding-bottom: 0
 
     }
 
@@ -3097,7 +3107,7 @@ section {
 
 .large-hero__text-box {
 
-        margin-top: 20px;
+        margin-top: 40px;
         padding: 0 2%;
         text-align: center;
 
@@ -3513,7 +3523,7 @@ section {
 .btn:link, .btn:visited {
 
         display: inline-block;
-        padding: 6px 18px;
+        padding: 8px 20px;
         font-weight: 300;
         text-decoration: none;
         border-radius: 200px;
@@ -3580,29 +3590,9 @@ section {
         margin-top: 0;
         margin-bottom: 20px;
         color: #fff;
-        font-size: 110%;
+        font-size: 240%;
         word-spacing: 4px;
         letter-spacing: 1px;
-
-    }
-
-@media (min-width: 530px) {
-
-.heading__h1 {
-
-            font-size: 140%
-
-    }
-
-    }
-
-@media (min-width: 800px) {
-
-.heading__h1 {
-
-            font-size: 240%
-
-    }
 
     }
 
