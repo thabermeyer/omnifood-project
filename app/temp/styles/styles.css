@@ -379,9 +379,9 @@ template {
 
 /* all browsers except IE6 and lower */
 
-/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 531 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 531px) {
 	.col { 
 		/*margin: 1% 0 1% 0%;*/
         margin: 0;
@@ -398,9 +398,9 @@ template {
 	width: 49.2%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 531 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 531px) {
 	.span-2-of-2 {
 		width: 100%; 
 	}
@@ -3200,18 +3200,38 @@ section {
 
 .how-it-works__box:first-child {
 
-            text-align: right;
-            padding-right: 3%;
+            text-align: center;
             margin-top: 30px;
 
         }
 
-.how-it-works__box:last-child {
+@media (min-width: 800px) {
 
-            padding-left: 3%;
-            margin-top: 70px;
+.how-it-works__box:first-child {
+
+                text-align: right;
+                padding-right: 3%
 
         }
+
+    }
+
+.how-it-works__box:last-child {
+
+            margin-top: 35px;
+
+        }
+
+@media (min-width: 800px) {
+
+.how-it-works__box:last-child {
+
+                margin-top: 70px;
+                padding-left: 3%
+
+        }
+
+    }
 
 .how-it-works__app-screen {
 
@@ -3221,7 +3241,17 @@ section {
 
 .how-it-works__step {
 
-        margin-bottom: 50px;
+        margin-bottom: 35px;
+
+    }
+
+@media (min-width: 800px) {
+
+.how-it-works__step {
+
+            margin-bottom: 50px
+
+    }
 
     }
 
@@ -3231,21 +3261,43 @@ section {
             border: 2px solid #e67e22;
             display: inline-block;
             border-radius: 50%;
-            height: 55px;
-            width: 55px;
+            height: 40px;
+            width: 40px;
             text-align: center;
             padding: 5px;
             float: left;
-            font-size: 150%;
+            font-size: 130%;
             margin-right: 25px;
 
         }
 
-.how-it-works__step:last-of-type {
+@media (min-width: 800px) {
 
-            margin-bottom: 80px;
+.how-it-works__step div {
+
+                font-size: 150%;
+                height: 55px;
+                width: 55px
 
         }
+
+    }
+
+.how-it-works__step:last-of-type {
+
+            margin-bottom: 35px;
+
+        }
+
+@media (min-width: 800px) {
+
+.how-it-works__step:last-of-type {
+
+                margin-bottom: 80px
+
+        }
+
+    }
 
 .cities__photo img {
 
@@ -3528,7 +3580,21 @@ section {
 
         height: 50px;
         width: auto;
-        margin-right: 10px;
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+
+    }
+
+@media (min-width: 800px) {
+
+.btn__app img {
+
+            display: initial;
+            margin-right: 10px;
+            margin-top: 0
+
+    }
 
     }
 
