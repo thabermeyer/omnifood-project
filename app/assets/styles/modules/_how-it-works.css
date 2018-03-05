@@ -7,7 +7,7 @@
             text-align: center;
             margin-top: 30px;
 
-            @mixin atMedium {
+            @mixin atLarge {
 
                 text-align: right;
                 padding-right: 3%;
@@ -23,6 +23,12 @@
             @mixin atMedium {
 
                 margin-top: 70px;
+                padding-right: 3%;
+            
+            }
+
+            @mixin atLarge {
+
                 padding-left: 3%;
 
             }
@@ -33,17 +39,33 @@
 
     &__app-screen {
 
-        width: 40%;
+        width: 30%;
+
+        @mixin atMedium {
+
+            width: 62%;
+
+        }
+
+        @mixin atLarge {
+
+            width: 40%;
+
+        }
 
     }
 
     &__step {
 
         margin-bottom: 35px;
+        margin-left: 3%;
+        margin-right: 3%;
 
         @mixin atMedium {
 
             margin-bottom: 50px;
+            margin-left: 0;
+            margin-right: 0;
 
         }
 

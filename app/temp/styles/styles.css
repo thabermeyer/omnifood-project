@@ -3205,7 +3205,7 @@ section {
 
         }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
 
 .how-it-works__box:first-child {
 
@@ -3227,6 +3227,16 @@ section {
 .how-it-works__box:last-child {
 
                 margin-top: 70px;
+                padding-right: 3%
+
+        }
+
+    }
+
+@media (min-width: 1200px) {
+
+.how-it-works__box:last-child {
+
                 padding-left: 3%
 
         }
@@ -3235,13 +3245,35 @@ section {
 
 .how-it-works__app-screen {
 
-        width: 40%;
+        width: 30%;
+
+    }
+
+@media (min-width: 800px) {
+
+.how-it-works__app-screen {
+
+            width: 62%
+
+    }
+
+    }
+
+@media (min-width: 1200px) {
+
+.how-it-works__app-screen {
+
+            width: 40%
+
+    }
 
     }
 
 .how-it-works__step {
 
         margin-bottom: 35px;
+        margin-left: 3%;
+        margin-right: 3%;
 
     }
 
@@ -3249,7 +3281,9 @@ section {
 
 .how-it-works__step {
 
-            margin-bottom: 50px
+            margin-bottom: 50px;
+            margin-left: 0;
+            margin-right: 0
 
     }
 
