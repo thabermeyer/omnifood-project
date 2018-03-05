@@ -3344,6 +3344,17 @@ section {
 .cities__info {
 
         margin-bottom: 5px;
+        text-align: center;
+
+    }
+
+@media (min-width: 1200px) {
+
+.cities__info {
+
+            text-align: left
+
+    }
 
     }
 
@@ -3363,6 +3374,22 @@ section {
             border-bottom: 1px solid transparent;
 
         }
+
+.cities__info--hide-on-small {
+
+            display: none;
+
+        }
+
+@media (min-width: 1200px) {
+
+.cities__info--hide-on-small {
+
+                display: initial
+
+        }
+
+    }
 
 .testimonials__block {
 

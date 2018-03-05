@@ -15,6 +15,13 @@
     &__info {
 
         margin-bottom: 5px;
+        text-align: center;
+
+        @mixin atLarge {
+
+            text-align: left;
+
+        }
 
         & a:link, & a:visited {
 
@@ -30,6 +37,18 @@
 
             color: #555;
             border-bottom: 1px solid transparent;
+
+        }
+
+        &--hide-on-small {
+
+            display: none;
+
+            @mixin atLarge {
+
+                display: initial;
+
+            }
 
         }
 
