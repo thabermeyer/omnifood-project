@@ -17,4 +17,26 @@
 
     }
 
+    &--no-horizontal-m {
+
+        width: 82%;
+        margin-left: 9%;
+
+        @mixin atMedium {
+
+            width: 70%;
+            margin-left: 15%;
+
+        }
+
+        @mixin atLarge {
+
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+
+        }
+
+    }
+
 }

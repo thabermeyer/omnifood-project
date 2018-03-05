@@ -455,9 +455,9 @@ template {
 	width: 23.8%; 
 }
 
-/*  GO FULL WIDTH AT LESS THAN 531 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 801 PIXELS */
 
-@media only screen and (max-width: 531px) {
+@media only screen and (max-width: 801px) {
 	.span-4-of-4 {
 		width: 100%; 
 	}
@@ -3766,6 +3766,36 @@ section {
 .paragraph--bottom-m {
 
         margin-bottom: 30px;
+
+    }
+
+.paragraph--no-horizontal-m {
+
+        width: 82%;
+        margin-left: 9%;
+
+    }
+
+@media (min-width: 800px) {
+
+.paragraph--no-horizontal-m {
+
+            width: 70%;
+            margin-left: 15%
+
+    }
+
+    }
+
+@media (min-width: 1200px) {
+
+.paragraph--no-horizontal-m {
+
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+
+    }
 
     }
 
