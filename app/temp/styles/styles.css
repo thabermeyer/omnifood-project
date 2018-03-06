@@ -420,8 +420,27 @@ template {
 }
 
 .span-1-of-3 {
-	width: 32.26%; 
+	width: 32.26%;
+
 }
+
+.span-1-of-3--block {
+
+		width: 100%;
+		margin-left: 0;
+
+	}
+
+@media (min-width: 1200px) {
+
+.span-1-of-3--block {
+
+			width: 32.26%;
+			margin-left: 1.6%
+
+	}
+
+    }
 
 /*  GO FULL WIDTH AT LESS THAN 531 PIXELS */
 
@@ -3446,6 +3465,17 @@ section {
         width: 90%;
         margin-left: 5%;
         box-shadow: 0 2px 2px #efefef;
+        margin-bottom: 10px;
+
+    }
+
+@media (min-width: 800px) {
+
+.sign-up__box {
+
+                margin-bottom: 0
+
+    }
 
     }
 

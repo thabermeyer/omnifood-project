@@ -7,6 +7,13 @@
         width: 90%;
         margin-left: 5%;
         box-shadow: 0 2px 2px #efefef;
+        margin-bottom: 10px;
+
+            @mixin atMedium {
+
+                margin-bottom: 0;
+
+            }
 
         & div {
 
