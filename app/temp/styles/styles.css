@@ -396,7 +396,26 @@ template {
 
 .span-1-of-2 {
 	width: 49.2%;
+
 }
+
+.span-1-of-2--block {
+
+		width: 100%;
+		margin-left: 0;
+
+	}
+
+@media (min-width: 1200px) {
+
+.span-1-of-2--block {
+
+			width: 49.2%;
+			margin-left: 1.6%
+
+	}
+
+    }
 
 /*  GO FULL WIDTH AT LESS THAN 531 PIXELS */
 
@@ -3643,7 +3662,19 @@ section {
 .footer__nav {
 
         list-style: none;
-        float: left;
+        text-align: center;
+
+    }
+
+@media (min-width: 1200px) {
+
+.footer__nav {
+
+            float: left;
+            text-align: left;
+            margin-top: 5px
+
+    }
 
     }
 
@@ -3678,7 +3709,18 @@ section {
 .footer__social-links {
 
         list-style: none;
-        float: right;
+        text-align: center;
+
+    }
+
+@media (min-width: 1200px) {
+
+.footer__social-links {
+
+            float: right;
+            text-align: left
+
+    }
 
     }
 
@@ -3716,6 +3758,22 @@ section {
         color: #888;
         text-align: center;
         margin-top: 20px;
+
+    }
+
+.footer--bottom-m {
+
+        margin-bottom: 20px;
+
+    }
+
+@media (min-width: 1200px) {
+
+.footer--bottom-m {
+
+            margin-bottom: 0
+
+    }
 
     }
 

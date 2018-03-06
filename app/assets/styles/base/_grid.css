@@ -54,6 +54,21 @@
 
 .span-1-of-2 {
 	width: 49.2%;
+
+	&--block {
+
+		width: 100%;
+		margin-left: 0;
+		
+		@mixin atLarge {
+
+			width: 49.2%;
+			margin-left: 1.6%;
+
+		}
+
+	}
+
 }
 
 /*  GO FULL WIDTH AT LESS THAN 531 PIXELS */

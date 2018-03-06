@@ -3,7 +3,15 @@
     &__nav {
 
         list-style: none;
-        float: left;
+        text-align: center;
+
+        @mixin atLarge {
+
+            float: left;
+            text-align: left;
+            margin-top: 5px;
+
+        }
 
         & li {
 
@@ -38,7 +46,14 @@
     &__social-links {
 
         list-style: none;
-        float: right;
+        text-align: center;
+
+        @mixin atLarge {
+
+            float: right;
+            text-align: left;
+
+        }
 
         & li {
 
@@ -76,6 +91,18 @@
         color: #888;
         text-align: center;
         margin-top: 20px;
+
+    }
+
+    &--bottom-m {
+
+        margin-bottom: 20px;
+
+        @mixin atLarge {
+
+            margin-bottom: 0;
+
+        }
 
     }
 
