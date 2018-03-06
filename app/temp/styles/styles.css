@@ -3544,6 +3544,26 @@ section {
 
     }
 
+@media (min-width: 800px) {
+
+.contact-form__form {
+
+            width: 80%
+
+    }
+
+    }
+
+@media (min-width: 1200px) {
+
+.contact-form__form {
+
+            width: 60%
+
+    }
+
+    }
+
 .contact-form__form input[type=text], .contact-form__form input[type=email], .contact-form__form select, .contact-form__form textarea {
 
             width: 100%;
@@ -3596,6 +3616,28 @@ section {
     
             background-color: #cf6d17;
     
+        }
+
+.contact-form__form-element {
+
+        margin-bottom: 8px;
+
+    }
+
+@media (min-width: 800px) {
+
+.contact-form__form-element {
+
+            margin-bottom: 0
+
+    }
+
+    }
+
+.contact-form__form-element--no-bottom-m {
+
+            margin-bottom: 0;
+
         }
 
 .footer__nav {
