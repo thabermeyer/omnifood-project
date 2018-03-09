@@ -1,4 +1,21 @@
-import $ from 'jquery';
-import StickyHeader from './modules/StickyHeader';
+$(document).ready(function() {
 
-var stickyHeader = new stickyHeader();
+    $('.large-hero__nav').waypoint(function(direction) {
+
+        if (direction === "down") {
+
+            $('nav').addClass("large_hero__sticky-nav");
+
+        } else {
+
+            $('nav').removeClass("large_hero__sticky-nav");
+
+        }
+
+    }, {
+
+        offset: '60px;'
+
+    });
+
+});
