@@ -1,6 +1,6 @@
-import $ from 'jquery';
-
 /*
+
+import $ from 'jquery';
 
 class MobileMenu {
   constructor() {
@@ -21,6 +21,8 @@ class MobileMenu {
   }
 }
 
-*/
+
 
 export default MobileMenu;
+
+*/
