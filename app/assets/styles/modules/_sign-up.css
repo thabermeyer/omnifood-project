@@ -80,4 +80,10 @@
         
     }
 
+    &__animated--pulse {
+
+        animation-duration: 1s;
+
+    }
+
 }

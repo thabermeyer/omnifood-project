@@ -107,4 +107,17 @@
 
     }
 
+    &__animated--fade-in {
+
+        opacity: 0;
+        animation-duration: 1s;
+
+        &.animated {
+
+            opacity: 1;
+
+        }
+
+    }
+
 }
