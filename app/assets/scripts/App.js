@@ -46,6 +46,29 @@ $(document).ready(function() {
 
     });
 
+    /* MobileNav */
+
+    $('.large-hero__mobile-nav').click(function() {
+
+        var nav = $('.large-hero__main-nav');
+        var icon = $('.large-hero__mobile-nav-icon');
+
+        nav.slideToggle(200);
+
+        if (icon.hasClass('ion-ios-menu')) {
+
+            icon.addClass('ion-md-close');
+            icon.removeClass('ion-ios-menu');
+
+        } else {
+
+            icon.addClass('ion-ios-menu');
+            icon.removeClass('ion-md-close');
+
+        }
+
+    });
+
     /* Animations */
 
     $('.features__animated--fade-in').waypoint(function(direction) {
