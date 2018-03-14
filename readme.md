@@ -7,12 +7,12 @@ This is the final project of Jonas Schmedtmann's "Build Responsive Real World We
 * Modular CSS organization
 * BEM methodology
 
-These were incorporated to practice skills from other courses, and to avoid simply copying the instructor verbatim. The responsive design is mostly my own, significantly different than the one presented in the course.
+These were incorporated to practice skills from other courses, and to avoid simply copying the instructor verbatim. The responsive design is mostly my own.
 
 ## Authors
 
 * **Jonas Schmedtmann** - *Project template + materials* - [jonasschmedtmann](https://github.com/jonasschmedtmann)
-* **Trevor Habermeyer** - *Repository build + updates* - [jonasschmedtmann](https://github.com/jonasschmedtmann)
+* **Trevor Habermeyer** - *Repository build + updates* - [thabermeyer](https://github.com/thabermeyer)
 
 ## Acknowledgments
 
